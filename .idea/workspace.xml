@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e59000b4-5b22-4055-a6bc-f96b3d44c820" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lafoet/ch2/ArrayApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lafoet/ch2/LowArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lafoet/ch2/LowArrayApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,11 +17,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ArrayApp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArrayApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch2/ArrayApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1175">
+            <state relative-caret-position="500">
               <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LowArray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch2/LowArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LowArrayApp.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch2/LowArrayApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1150">
+              <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -43,6 +62,8 @@
         <option value="$PROJECT_DIR$/src/main/java/lafoet/ch1/BankAccount.java" />
         <option value="$PROJECT_DIR$/src/main/java/lafoet/ch1/BankApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/lafoet/ch2/ArrayApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lafoet/ch2/LowArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lafoet/ch2/LowArrayApp.java" />
       </list>
     </option>
   </component>
@@ -133,7 +154,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayApp">
+  <component name="RunManager" selected="Application.LowArrayApp">
     <configuration name="ArrayApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lafoet.ch2.ArrayApp" />
       <module name="LafoetJava" />
@@ -152,6 +173,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lafoet.ch1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="LowArrayApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lafoet.ch2.LowArrayApp" />
+      <module name="LafoetJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lafoet.ch2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,9 +232,11 @@
     <list>
       <item itemvalue="Application.BankApp" />
       <item itemvalue="Application.ArrayApp" />
+      <item itemvalue="Application.LowArrayApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LowArrayApp" />
         <item itemvalue="Application.ArrayApp" />
         <item itemvalue="Application.BankApp" />
       </list>
@@ -276,8 +310,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch2/ArrayApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1175">
+        <state relative-caret-position="500">
           <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch2/LowArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch2/LowArrayApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
         </state>
       </provider>
     </entry>
