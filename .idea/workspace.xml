@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e59000b4-5b22-4055-a6bc-f96b3d44c820" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lafoet/ch2/LowArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lafoet/ch2/LowArrayApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lafoet/ch2/HighArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lafoet/ch2/HighArrayApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/lafoet/ch2/HighArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/lafoet/ch2/HighArrayApp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,11 +37,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LowArrayApp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LowArrayApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch2/LowArrayApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1150">
               <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HighArray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch2/HighArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HighArrayApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch2/HighArrayApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -64,6 +84,8 @@
         <option value="$PROJECT_DIR$/src/main/java/lafoet/ch2/ArrayApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/lafoet/ch2/LowArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/lafoet/ch2/LowArrayApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lafoet/ch2/HighArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lafoet/ch2/HighArrayApp.java" />
       </list>
     </option>
   </component>
@@ -154,7 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LowArrayApp">
+  <component name="RunManager" selected="Application.HighArrayApp">
     <configuration name="ArrayApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lafoet.ch2.ArrayApp" />
       <module name="LafoetJava" />
@@ -173,6 +195,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lafoet.ch1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="HighArrayApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lafoet.ch2.HighArrayApp" />
+      <module name="LafoetJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lafoet.ch2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,9 +266,11 @@
       <item itemvalue="Application.BankApp" />
       <item itemvalue="Application.ArrayApp" />
       <item itemvalue="Application.LowArrayApp" />
+      <item itemvalue="Application.HighArrayApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HighArrayApp" />
         <item itemvalue="Application.LowArrayApp" />
         <item itemvalue="Application.ArrayApp" />
         <item itemvalue="Application.BankApp" />
@@ -326,6 +361,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1150">
           <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch2/HighArrayApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch2/HighArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
