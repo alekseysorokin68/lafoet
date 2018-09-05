@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e59000b4-5b22-4055-a6bc-f96b3d44c820" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lafoet/ch2/OrdArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lafoet/ch2/Person.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,11 +15,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="OrdArray.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OrdArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch2/OrdArray.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1124">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch2/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderedApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch2/OrderedApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -46,6 +64,8 @@
         <option value="$PROJECT_DIR$/src/main/java/lafoet/ch2/LowArrayApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/lafoet/ch2/HighArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/lafoet/ch2/HighArrayApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lafoet/ch2/OrdArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lafoet/ch2/OrderedApp.java" />
       </list>
     </option>
   </component>
@@ -136,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OrderedApp">
+  <component name="RunManager" selected="Application.ClassDataApp">
     <configuration name="ArrayApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lafoet.ch2.ArrayApp" />
       <module name="LafoetJava" />
@@ -148,13 +168,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="BankApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lafoet.ch1.BankApp" />
+    <configuration name="ClassDataApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lafoet.ch2.ClassDataApp" />
       <module name="LafoetJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lafoet.ch1.*" />
+          <option name="PATTERN" value="lafoet.ch2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,19 +254,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.BankApp" />
       <item itemvalue="Application.ArrayApp" />
       <item itemvalue="Application.LowArrayApp" />
       <item itemvalue="Application.HighArrayApp" />
       <item itemvalue="Application.OrderedApp" />
+      <item itemvalue="Application.ClassDataApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClassDataApp" />
         <item itemvalue="Application.OrderedApp" />
         <item itemvalue="Application.HighArrayApp" />
         <item itemvalue="Application.LowArrayApp" />
         <item itemvalue="Application.ArrayApp" />
-        <item itemvalue="Application.BankApp" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +296,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3291536" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
@@ -286,7 +306,7 @@
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.2967607" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -297,6 +317,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -351,10 +376,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch2/OrderedApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch2/OrdArray.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1124">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch2/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
