@@ -1,4 +1,4 @@
-package lafoet.ch2;
+package lafoet;
 
 public class Person {
     private String lastName;

@@ -1,5 +1,7 @@
 package lafoet.ch2;
 
+import lafoet.Person;
+
 public class ClassDataArray {
     private Person[] a;               // reference to array
     private int nElems;               // number of data items

@@ -1,5 +1,7 @@
 package lafoet.ch2;
 
+import lafoet.Person;
+
 public class ClassDataApp {
     public static void main(String[] args)
     {

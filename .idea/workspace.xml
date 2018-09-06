@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e59000b4-5b22-4055-a6bc-f96b3d44c820" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lafoet/ch3/ArrayIns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lafoet/ch3/InsertSortApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e59000b4-5b22-4055-a6bc-f96b3d44c820" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -203,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InsertSortApp">
+  <component name="RunManager" selected="Application.ObjectSortApp">
     <configuration name="BubbleSortApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lafoet.ch3.BubbleSortApp" />
       <module name="LafoetJava" />
@@ -221,7 +217,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lafoet.ch2.*" />
+          <option name="PATTERN" value="lafoet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,13 +233,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="OrderedApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lafoet.ch2.OrderedApp" />
+    <configuration name="ObjectSortApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lafoet.ch3.ObjectSortApp" />
       <module name="LafoetJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lafoet.ch2.*" />
+          <option name="PATTERN" value="lafoet.ch3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -301,19 +297,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.OrderedApp" />
       <item itemvalue="Application.ClassDataApp" />
       <item itemvalue="Application.BubbleSortApp" />
       <item itemvalue="Application.SelectSortApp" />
       <item itemvalue="Application.InsertSortApp" />
+      <item itemvalue="Application.ObjectSortApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObjectSortApp" />
         <item itemvalue="Application.InsertSortApp" />
         <item itemvalue="Application.SelectSortApp" />
         <item itemvalue="Application.BubbleSortApp" />
         <item itemvalue="Application.ClassDataApp" />
-        <item itemvalue="Application.OrderedApp" />
       </list>
     </recent_temporary>
   </component>
