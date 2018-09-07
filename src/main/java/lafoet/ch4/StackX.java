@@ -36,4 +36,20 @@ public class StackX {
     {
         return (top == maxSize-1);
     }
+    public int size()           // return size
+    { return top+1; }
+    //--------------------------------------------------------------
+    public long peekN(int n)     // peek at index n
+    { return stackArray[n]; }
+    public void displayStack(String s)
+    {
+        System.out.print(s);
+        System.out.print("Stack (bottom-->top): ");
+        for(int j=0; j<size(); j++)
+        {
+            System.out.print( peekN(j) );
+            System.out.print(' ');
+        }
+        System.out.println("");
+    }
 }
