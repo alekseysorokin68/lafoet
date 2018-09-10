@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e59000b4-5b22-4055-a6bc-f96b3d44c820" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lafoet/ch6/AnagramApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lafoet/ch6/OrdArray.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,11 +27,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnagramApp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AnagramApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch6/AnagramApp.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrdArray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch6/OrdArray.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -57,7 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/lafoet/ch2/ArrayApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/lafoet/ch2/LowArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/lafoet/ch2/LowArrayApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/lafoet/ch2/HighArray.java" />
@@ -108,6 +119,7 @@
         <option value="$PROJECT_DIR$/src/main/java/lafoet/ch5/LinkListIter.java" />
         <option value="$PROJECT_DIR$/src/main/java/lafoet/ch5/InterIterApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/lafoet/ch6/TriangleApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lafoet/ch6/AnagramApp.java" />
       </list>
     </option>
   </component>
@@ -198,9 +210,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AnagramApp">
+  <component name="RunManager" selected="Application.BinarySearchApp">
     <configuration name="AnagramApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lafoet.ch6.AnagramApp" />
+      <module name="LafoetJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lafoet.ch6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="BinarySearchApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lafoet.ch6.BinarySearchApp" />
       <module name="LafoetJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -223,17 +246,6 @@
     </configuration>
     <configuration name="InterIterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lafoet.ch5.InterIterApp" />
-      <module name="LafoetJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lafoet.ch5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ListInsertionSortApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lafoet.ch5.ListInsertionSortApp" />
       <module name="LafoetJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -296,19 +308,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ListInsertionSortApp" />
       <item itemvalue="Application.DoublyLinkedApp" />
       <item itemvalue="Application.InterIterApp" />
       <item itemvalue="Application.TriangleApp" />
       <item itemvalue="Application.AnagramApp" />
+      <item itemvalue="Application.BinarySearchApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearchApp" />
         <item itemvalue="Application.AnagramApp" />
         <item itemvalue="Application.TriangleApp" />
         <item itemvalue="Application.InterIterApp" />
         <item itemvalue="Application.DoublyLinkedApp" />
-        <item itemvalue="Application.ListInsertionSortApp" />
       </list>
     </recent_temporary>
   </component>
@@ -387,13 +399,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch2/HighArrayApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch2/HighArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -739,8 +744,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch6/AnagramApp.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch6/OrdArray.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
