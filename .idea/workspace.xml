@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e59000b4-5b22-4055-a6bc-f96b3d44c820" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lafoet/ch6/OrdArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lafoet/ch6/TowersApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,11 +40,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrdArray.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OrdArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch6/OrdArray.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-975">
+              <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+              <folding>
+                <element signature="e#586#587#0" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinarySearchApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch6/BinarySearchApp.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TowersApp.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch6/TowersApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="19" />
+              <folding>
+                <element signature="e#121#122#0" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,9 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/lafoet/ch2/LowArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lafoet/ch2/LowArrayApp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lafoet/ch2/HighArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/lafoet/ch2/HighArrayApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/lafoet/ch2/OrdArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/lafoet/ch2/OrderedApp.java" />
@@ -120,6 +144,9 @@
         <option value="$PROJECT_DIR$/src/main/java/lafoet/ch5/InterIterApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/lafoet/ch6/TriangleApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/lafoet/ch6/AnagramApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lafoet/ch6/OrdArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lafoet/ch6/BinarySearchApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lafoet/ch6/TowersApp.java" />
       </list>
     </option>
   </component>
@@ -210,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinarySearchApp">
+  <component name="RunManager" selected="Application.TowersApp">
     <configuration name="AnagramApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lafoet.ch6.AnagramApp" />
       <module name="LafoetJava" />
@@ -233,8 +260,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="DoublyLinkedApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lafoet.ch5.DoublyLinkedApp" />
+    <configuration name="InterIterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lafoet.ch5.InterIterApp" />
       <module name="LafoetJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -244,13 +271,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="InterIterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lafoet.ch5.InterIterApp" />
+    <configuration name="TowersApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lafoet.ch6.TowersApp" />
       <module name="LafoetJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lafoet.ch5.*" />
+          <option name="PATTERN" value="lafoet.ch6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -308,19 +335,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.DoublyLinkedApp" />
       <item itemvalue="Application.InterIterApp" />
       <item itemvalue="Application.TriangleApp" />
       <item itemvalue="Application.AnagramApp" />
       <item itemvalue="Application.BinarySearchApp" />
+      <item itemvalue="Application.TowersApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TowersApp" />
         <item itemvalue="Application.BinarySearchApp" />
         <item itemvalue="Application.AnagramApp" />
         <item itemvalue="Application.TriangleApp" />
         <item itemvalue="Application.InterIterApp" />
-        <item itemvalue="Application.DoublyLinkedApp" />
       </list>
     </recent_temporary>
   </component>
@@ -350,18 +377,18 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38975966" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38975966" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20833333" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20833333" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2967607" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2967607" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -395,24 +422,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/lafoet/ch6/TowersApp.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch2/HighArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch2/OrderedApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch2/OrdArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1124">
@@ -754,8 +775,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch6/OrdArray.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-975">
+          <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <folding>
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch6/BinarySearchApp.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch6/TowersApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="19" />
+          <folding>
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
