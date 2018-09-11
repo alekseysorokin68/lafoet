@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e59000b4-5b22-4055-a6bc-f96b3d44c820" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lafoet/ch7/ArraySh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lafoet/ch7/ShellSortApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lafoet/ch7/ArrayPar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lafoet/ch7/PartitionApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ArraySh.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArraySh.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch7/ArraySh.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="200">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
@@ -29,8 +29,26 @@
       <file leaf-file-name="ShellSortApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch7/ShellSortApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            <state relative-caret-position="50">
+              <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayPar.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch7/ArrayPar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="725">
+              <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PartitionApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch7/PartitionApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -56,8 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/lafoet/ch3/BubbleSortApp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lafoet/ch3/ArraySel.java" />
         <option value="$PROJECT_DIR$/src/main/java/lafoet/ch3/SelectSortApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/lafoet/ch3/ArrayIns.java" />
         <option value="$PROJECT_DIR$/src/main/java/lafoet/ch3/InsertSortApp.java" />
@@ -107,6 +123,8 @@
         <option value="$PROJECT_DIR$/src/main/java/lafoet/ch6/StackTriangle2App.java" />
         <option value="$PROJECT_DIR$/src/main/java/lafoet/ch7/ArraySh.java" />
         <option value="$PROJECT_DIR$/src/main/java/lafoet/ch7/ShellSortApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lafoet/ch7/ArrayPar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lafoet/ch7/PartitionApp.java" />
       </list>
     </option>
   </component>
@@ -197,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ShellSortApp">
+  <component name="RunManager" selected="Application.PartitionApp">
     <configuration name="MergeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lafoet.ch6.MergeApp" />
       <module name="LafoetJava" />
@@ -220,6 +238,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="PartitionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lafoet.ch7.PartitionApp" />
+      <module name="LafoetJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lafoet.ch7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="ShellSortApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lafoet.ch7.ShellSortApp" />
       <module name="LafoetJava" />
@@ -233,17 +262,6 @@
     </configuration>
     <configuration name="StackTriangle2App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lafoet.ch6.StackTriangle2App" />
-      <module name="LafoetJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lafoet.ch6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="TowersApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lafoet.ch6.TowersApp" />
       <module name="LafoetJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -295,19 +313,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.TowersApp" />
       <item itemvalue="Application.MergeApp" />
       <item itemvalue="Application.MergeSortApp" />
       <item itemvalue="Application.StackTriangle2App" />
       <item itemvalue="Application.ShellSortApp" />
+      <item itemvalue="Application.PartitionApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PartitionApp" />
         <item itemvalue="Application.ShellSortApp" />
         <item itemvalue="Application.StackTriangle2App" />
         <item itemvalue="Application.MergeSortApp" />
         <item itemvalue="Application.MergeApp" />
-        <item itemvalue="Application.TowersApp" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +355,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38975966" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3678161" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -348,7 +366,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2967607" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2967607" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -389,31 +407,11 @@
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/lafoet/ch7/ShellSortApp.java</url>
-          <line>15</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch3/ArraySel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch3/ArrayIns.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch3/InsertSortApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -763,17 +761,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch7/ShellSortApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch7/ArraySh.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="200">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch7/ArraySh.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch7/ShellSortApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="50">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch7/PartitionApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lafoet/ch7/ArrayPar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
         </state>
       </provider>
     </entry>
